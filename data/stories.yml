@@ -1,0 +1,32 @@
+version: "3.1"
+
+stories:
+- story: User greets
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: User asks about yield
+  steps:
+  - intent: yield
+  - action: action_provide_yield_infos
+
+- story: User asks for market information
+  steps:
+  - intent: market_information
+  - action: action_provide_market_information
+
+- story: User asks for pest control
+  steps:
+  - intent: Pest_control
+  - action: action_Pest_control
+
+- story: User asks about irrigation and fertilization
+  steps:
+  - intent: irrigation_fertilization
+  - action: action_provide_irrigation_fertilization
+
+- story: User says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

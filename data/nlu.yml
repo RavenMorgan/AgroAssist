@@ -1,0 +1,152 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+
+- intent: ask_weather_location
+  examples: |
+      - How's the weather today in [Benguerir](location)?
+      - How's weather in [Casablanca](location) today?
+      - What's going on [Benguerir](location) today?
+      - In [Rabat](location)
+      - Tell me weather of [Tanger](location)
+      - What about in [Marrakesh](location) today?
+      - Show me weather of [Mohammedia](location)
+      - Sorry, in [Fes](location)
+
+- intent: yield
+  examples: |
+      - Why are my potatoes small after harvest? 
+      - Small potato yield, what went wrong?    
+      - Issues with potato harvest, help needed. 
+      - What is the best way to increase the yield of my rice paddy?
+      - Optimizing rice paddy yield strategies?
+      - Maximize rice production methods?
+      - Increasing rice harvest techniques?
+
+
+
+- intent: ask_weather_tomorrow
+  examples: |
+      - Is it going to rain tomorrow in Benguerir?
+      - What's the weather forecast for tomorrow in Benguerir?
+      - Will it be rainy in Benguerir tomorrow?
+
+- intent: market_information
+  examples: |
+      - Which seeds are the best for red potatoes?
+      - Can you recommend the ideal seeds for growing red potatoes?
+      - What are the recommended seeds for red potato cultivation?
+
+- intent: Pest_control
+  examples: |
+      - Can you recommend a pest-resistant variety of wheat for planting?
+      - Pest-resistant wheat strains for cultivation?
+      - Wheat varieties that are resistant to pests?
+      - Which types of wheat are least susceptible to pests?"
+      - Tips for preventing fungal diseases in grapevines?
+      - How do I prevent fungal diseases in my grapevines?
+      - Methods to avoid fungal diseases in grapevines?
+      - Preventing fungal infections in grapevines?
+      - Grapevine fungus prevention techniques?    
+      
+
+# - intent: irrigation_fertilization
+#   examples:
+#      - What irrigation techniques are suitable for arid regions? 
+#      - Irrigation methods for dry climates?
+#      - Watering strategies for desert areas?
+#      - Suitable irrigation practices for arid environments?
+#      - Recommendations for organic fertilizer in vegetable gardens?
+#      - Natural fertilizers for growing vegetables?
+#      - Best eco-friendly fertilizers for veggies?
+#      - Can you suggest a natural fertilizer for my vegetable garden?
